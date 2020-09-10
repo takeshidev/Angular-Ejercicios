@@ -1,2 +1,2 @@
 # Angular-Ejercicios
-Ejercicios de Angular para el curso Desarrollo de Páginas con Angular en Coursera.org
+Desarrollo de ejercicios del curso *"Desarrollo de Páginas con Angular"* en Coursera.org

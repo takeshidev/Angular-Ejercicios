@@ -14,7 +14,7 @@ export class ListaDestinosComponent implements OnInit {
 	this.destinos = [];
  }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
 	guardar(nombre:string, url:string):boolean {
@@ -23,5 +23,9 @@ export class ListaDestinosComponent implements OnInit {
 
 		return false;
 	}
+elegido(d: DestinoViaje) {
+	this.destinos.forEach(function (x) {x.setSelected(false);});
+	d.setSelected(true);
+}
 
 }
